@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-task-tracker"]=this["webpackJsonpreact-task-tracker"]||[]).push([[0],{10:function(t,e,c){},11:function(t,e,c){"use strict";c.r(e);var n=c(0),r=(c(2),c(3)),s=c.n(r);c(9),c(10);var a=function(){return Object(n.jsx)("div",{className:"App",children:Object(n.jsx)("h1",{children:"App"})})};s.a.render(Object(n.jsx)(a,{}),document.getElementById("root"))},9:function(t,e,c){}},[[11,1,2]]]);
+//# sourceMappingURL=main.d640f2f2.chunk.js.map
