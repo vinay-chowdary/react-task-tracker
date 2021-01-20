@@ -2,6 +2,7 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import IconButton from '@material-ui/core/IconButton';
 import { TaskContext } from './TaskContext';
 import { useContext } from 'react';
+import moment from 'moment'
 
 const Task = ({ task }) => {
 
@@ -39,7 +40,7 @@ const Task = ({ task }) => {
                 <IconButton onClick={() => { deleteTask(task.id) }} >
                     <DeleteIcon style={{ color: "#f00" }} />
                 </IconButton></h3>
-            <p>{task.date}</p>
+            <p>{moment(task.date).format("ddd, Do MMM YYYY, h:mm a")}</p>
 
         </div >
     );
