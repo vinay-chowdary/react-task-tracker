@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/vinay-chowdary.github.io/react-task-tracker/static/css/main.36055f6b.chunk.css",
-    "main.js": "/vinay-chowdary.github.io/react-task-tracker/static/js/main.96164839.chunk.js",
-    "main.js.map": "/vinay-chowdary.github.io/react-task-tracker/static/js/main.96164839.chunk.js.map",
-    "runtime-main.js": "/vinay-chowdary.github.io/react-task-tracker/static/js/runtime-main.08222b99.js",
-    "runtime-main.js.map": "/vinay-chowdary.github.io/react-task-tracker/static/js/runtime-main.08222b99.js.map",
-    "static/js/2.bf69b9f6.chunk.js": "/vinay-chowdary.github.io/react-task-tracker/static/js/2.bf69b9f6.chunk.js",
-    "static/js/2.bf69b9f6.chunk.js.map": "/vinay-chowdary.github.io/react-task-tracker/static/js/2.bf69b9f6.chunk.js.map",
-    "index.html": "/vinay-chowdary.github.io/react-task-tracker/index.html",
-    "static/css/main.36055f6b.chunk.css.map": "/vinay-chowdary.github.io/react-task-tracker/static/css/main.36055f6b.chunk.css.map",
-    "static/js/2.bf69b9f6.chunk.js.LICENSE.txt": "/vinay-chowdary.github.io/react-task-tracker/static/js/2.bf69b9f6.chunk.js.LICENSE.txt"
+    "main.css": "/react-task-tracker/static/css/main.6114aaf4.chunk.css",
+    "main.js": "/react-task-tracker/static/js/main.ed1cfc56.chunk.js",
+    "main.js.map": "/react-task-tracker/static/js/main.ed1cfc56.chunk.js.map",
+    "runtime-main.js": "/react-task-tracker/static/js/runtime-main.2141ecef.js",
+    "runtime-main.js.map": "/react-task-tracker/static/js/runtime-main.2141ecef.js.map",
+    "static/js/2.ad42db2f.chunk.js": "/react-task-tracker/static/js/2.ad42db2f.chunk.js",
+    "static/js/2.ad42db2f.chunk.js.map": "/react-task-tracker/static/js/2.ad42db2f.chunk.js.map",
+    "index.html": "/react-task-tracker/index.html",
+    "static/css/main.6114aaf4.chunk.css.map": "/react-task-tracker/static/css/main.6114aaf4.chunk.css.map",
+    "static/js/2.ad42db2f.chunk.js.LICENSE.txt": "/react-task-tracker/static/js/2.ad42db2f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.08222b99.js",
-    "static/js/2.bf69b9f6.chunk.js",
-    "static/css/main.36055f6b.chunk.css",
-    "static/js/main.96164839.chunk.js"
+    "static/js/runtime-main.2141ecef.js",
+    "static/js/2.ad42db2f.chunk.js",
+    "static/css/main.6114aaf4.chunk.css",
+    "static/js/main.ed1cfc56.chunk.js"
   ]
 }
