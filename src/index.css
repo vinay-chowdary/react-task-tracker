@@ -7,17 +7,24 @@
 }
 
 body {
+  padding: 60px 0;
+  min-height: 100vh;
+  background: url("./assets/images/img1.jpg") no-repeat center/cover;
   font-family: "Poppins", sans-serif;
 }
 
 .container {
+  background-color: #f4f4f4;
+  /* filter: blur(1px); */
   max-width: 600px;
-  margin: 30px auto;
+  margin: auto;
   overflow: auto;
   min-height: 300px;
   border: 1px solid steelblue;
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #333;
+  backdrop-filter: blur(10px);
 }
 
 .header {
