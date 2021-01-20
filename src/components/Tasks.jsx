@@ -1,10 +1,14 @@
 import { useContext } from 'react';
 import { TaskContext } from "../components/TaskContext";
+import Task from './Task';
+
 const Tasks = () => {
-    const [tasks, _] = useContext(TaskContext);
+    const [tasks,] = useContext(TaskContext);
     return (
+
+        // <></> this is called react fragment
         <>
-            {tasks.map((task) => (<h3 key={task.id}>{task.id},{task.text}</h3>))}
+            {tasks.length > 0 ? tasks.map((task, index) => (< Task key={index} task={task} />)) : <h4 className="no-task">** no tasks to be shown, Click on <i>Add </i> button to add new Task</h4>}
         </>
     )
 }
