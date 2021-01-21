@@ -17,7 +17,7 @@ function App() {
 
         <div className="App container">
           <Header />
-          <Route path="/" exact render={(props) => (
+          <Route path="/" exact basename={process.env.PUBLIC_URL} render={(props) => (
             <>
               {showForm && <AddTask />}
               <Tasks />
