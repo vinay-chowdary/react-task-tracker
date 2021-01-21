@@ -12,12 +12,12 @@ function App() {
   const [showForm] = useContext(ShowFormContext);
   return (
 
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <TaskProvider>
 
         <div className="App container">
           <Header />
-          <Route path="/" exact basename={process.env.PUBLIC_URL} render={(props) => (
+          <Route path="/" exact render={(props) => (
             <>
               {showForm && <AddTask />}
               <Tasks />
