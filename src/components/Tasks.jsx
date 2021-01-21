@@ -8,7 +8,7 @@ const Tasks = () => {
 
         // <></> this is called react fragment
         <>
-            {tasks.length > 0 ? tasks.map((task, index) => (< Task key={index} task={task} />)) : <h4 className="no-task">** no tasks to be shown, Click on <i>Add </i> button to add new Task</h4>}
+            {tasks.length > 0 ? tasks.map((task, index) => (< Task key={index} task={task} />)) : <h4 className="no-task">** no tasks to show, Click on <i>Add </i> button to add new Task</h4>}
         </>
     )
 }
