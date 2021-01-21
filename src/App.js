@@ -17,14 +17,18 @@ function App() {
 
         <div className="App container">
           <Header />
-          <Route path="/" exact>
-            {showForm && <AddTask />}
-            <Tasks />
-            <Footer />
-          </Route>
-          <Route path="/quick-links">
-            <QuickLinks />
-          </Route>
+          <Route path="/" exact render={(props) => (
+            <>
+              {showForm && <AddTask />}
+              <Tasks />
+              <Footer />
+            </>
+          )} />
+          <Route path="/quick-links" render={
+            (props) => (
+              <QuickLinks />
+            )
+          } />
         </div>
       </TaskProvider >
     </Router>
