@@ -8,14 +8,10 @@
 
 body {
   min-height: 100vh;
+  padding: 20px 0;
+  background: url("./assets/images/img1.jpg");
   font-family: "Poppins", sans-serif;
   position: relative;
-}
-
-.background {
-  position: absolute;
-  height: 100%;
-  width: 100%;
 }
 
 .container {
@@ -29,8 +25,6 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px #333;
   backdrop-filter: blur(30px);
-  position: relative;
-  top: 70px;
 }
 
 .header {
